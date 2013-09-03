@@ -2,12 +2,12 @@
   "name": "tropo-webapi",
   "description": "A Node.js library for the Tropo WebAPI.",
   "version": "1.0.17",
-  "homepage": "http://tropo.com",
+  "homepage": "http://developergarden.com",
   "author": "Mark Headd <mheadd@voxeo.com> (http://tropo.com)",
   "main": "./lib/tropo-webapi",
   "directories" : { "lib" : "./lib", "samples": "./samples", "tests": "./tests" },
   "repositories" : [
-    { "type":"git", "url":"https://github.com/tropo/tropo-webapi-node" }
+    { "type":"git", "url":"https://github.com/developergarden/tropo-webapi-node" }
   ],
   "engines": {
     "node": "> 0.6.0"
