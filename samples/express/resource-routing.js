@@ -10,9 +10,9 @@ var app = express.createServer();
 app.post('/', function(req, res){
 	// Create a new instance of the TropoWebAPI object.
 	var tropo = new tropowebapi.TropoWebAPI();
-	// Use the say method https://www.tropo.com/docs/webapi/say.htm
+	// Use the say method https://www.developergarden.com/fileadmin/microsites/ApiProject/Dokumente/Dokumentation/Api_Doc_5_0/telekom-tropo-2.1/html/say.html
 	tropo.say("Welcome to my Tropo Web API node demo.");
-	// Use the on method https://www.tropo.com/docs/webapi/on.htm
+	// Use the on method https://www.developergarden.com/fileadmin/microsites/ApiProject/Dokumente/Dokumentation/Api_Doc_5_0/telekom-tropo-2.1/html/on.html
 	tropo.on("continue", null, "/one", true);
 	
     res.send(tropowebapi.TropoJSON(tropo));
