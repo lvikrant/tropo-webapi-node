@@ -1,7 +1,7 @@
 Tropo WebAPI Node.js Library
 ============================
 
-A [Node.js](http://nodejs.org/ "Node.js") module for the [Tropo WebAPI](https://www.developergarden.com/fileadmin/microsites/ApiProject/Dokumente/Dokumentation/Api_Doc_5_0/telekom-tropo-2.1/html/webapi.html/ "Tropo WebAPI"). 
+A [Node.js](http://nodejs.org/ "Node.js") module for the [Telekom Tropo WebAPI](https://www.developergarden.com/fileadmin/microsites/ApiProject/Dokumente/Dokumentation/Api_Doc_5_0/telekom-tropo-2.1/html/webapi.html/ "Tropo WebAPI"). 
 
 Installation
 ============
