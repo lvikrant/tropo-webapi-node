@@ -13,7 +13,7 @@ app.post('/', function(req, res) {
 
     var tropo = new tropowebapi.TropoWebAPI();
     
-    mc = new MachineDetection("This is a test. Please hold while I determine if you are a Machine or Human. Processing. Finished. THank you for your patience.", "Victor")
+    mc = new MachineDetection("This is a test. Please hold while I determine if you are a Machine or Human. Processing. Finished. THank you for your patience.", "Kate")
     tropo.call("+14071234321", null, null, "14075559090", null, "call", null, null, true, 60, null, mc);
     tropo.on("continue", null, "/call", true);
 
