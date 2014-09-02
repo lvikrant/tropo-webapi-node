@@ -17,8 +17,8 @@ var token = 'your-tropo-token';
 var msg = encodeURI('This is a test SMS message from Node.js.');
 var number = '5551234567';
 
-var tropoSessionAPI = 'api.tropo.com';
-var path = '/1.0/sessions?action=create&token=' + token + '&msg=' + msg + '&number=' + number;
+var tropoSessionAPI = 'tropo.developergarden.com';
+var path = '/api/sessions?action=create&token=' + token + '&msg=' + msg + '&number=' + number;
 
 var tropo = http.createClient(80, tropoSessionAPI);
 var request = tropo.request('GET', path, {'host': tropoSessionAPI});
