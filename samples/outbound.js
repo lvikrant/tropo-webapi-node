@@ -1,7 +1,7 @@
 /**
  * Simple outbound message launcher in Node.js
  * 
- * You will need to have a Tropo scripting aplication set up
+ * You will need to have a Tropo scripting application set up
  *  to use this. See sample code below:
  *  
  *  message(msg, { to:number, network:"SMS" });

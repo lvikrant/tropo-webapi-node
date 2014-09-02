@@ -1,6 +1,6 @@
 /**
 * A simple application showing how to use simple routing logic.<b> 
-* A more simplistic version of what can be accomplised with frameworks 
+* A more simplistic version of what can be accomplished with frameworks 
 * like Express.
 */
 
